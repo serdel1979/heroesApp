@@ -7,8 +7,7 @@ import { Heroe } from '../interface/heroes.interface';
 export class HeroeimgPipe implements PipeTransform {
 
   transform(heroe: Heroe): string {
-    let path: string = "assets/heroes/";
-    return `${path}${heroe.id}.jpg`;
+    return `assets/heroes/${heroe.id}.jpg`;
   }
 
 }
