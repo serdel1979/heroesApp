@@ -31,5 +31,9 @@
         </mat-form-field>
     </div>
 
-    {{ heroeSeleccionado | json }}
+    
+
+    <div fxFlex="20" fxFlex.lg="15" fxFlex.sm="30">
+        <app-heroe-tarjeta [heroe]="heroeSeleccionado" *ngIf="heroeSeleccionado"></app-heroe-tarjeta>
+    </div>
 </div>
