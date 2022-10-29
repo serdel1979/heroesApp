@@ -38,5 +38,9 @@ export class HeroesService {
     return this.http.patch<Heroe>(`${this.baseUrl}/heroes/${id}`, heroe);
   }
 
+  deleteHeroe(id: string): Observable<any>{
+    return this.http.delete<any>(`${this.baseUrl}/heroes/${id}`);
+  }
+
 
 }

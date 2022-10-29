@@ -8,12 +8,11 @@ import { switchMap } from 'rxjs/operators';
   selector: 'app-heroe',
   templateUrl: './heroe.component.html',
   styles: [`
-  img{
-    width:80%;
+  img {
+    width: 100%;
     border-radius: 5px;
   }
-  `
-  ]
+`]
 })
 export class HeroeComponent implements OnInit {
 
