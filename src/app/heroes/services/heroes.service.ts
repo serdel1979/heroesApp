@@ -34,5 +34,9 @@ export class HeroesService {
     return this.http.post<Heroe>(`${this.baseUrl}/heroes`, heroe);
   }
 
+  editaHeroe(id: string, heroe:Heroe): Observable<Heroe>{
+    return this.http.patch<Heroe>(`${this.baseUrl}/heroes/${id}`, heroe);
+  }
+
 
 }

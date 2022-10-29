@@ -155,7 +155,7 @@
       "id": "marvel-cyclops",
       "superhero": "Cyclops",
       "publisher": "Marvel Comics",
-      "alter_ego": "Scott Summers",
+      "alter_ego": "Scott Summers san",
       "first_appearance": "X-Men #1",
       "characters": "Scott Summers"
     },
@@ -175,15 +175,7 @@
       "publisher": "Marvel Comics",
       "alt_img": "",
       "id": "1Fak9DL"
-    },
-    {
-      "superhero": "Julio",
-      "alter_ego": "Naranja",
-      "characters": "Los de dcv",
-      "first_appearance": "En un lugar extraño",
-      "publisher": "DC Comics",
-      "alt_img": "",
-      "id": "JXDAoIk"
     }
+
   ]
 }
