@@ -30,5 +30,9 @@ export class HeroesService {
   }
 
 
+  guardarHeroe(heroe:Heroe): Observable<Heroe>{
+    return this.http.post<Heroe>(`${this.baseUrl}/heroes`, heroe);
+  }
+
 
 }
