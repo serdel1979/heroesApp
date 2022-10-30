@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Auth } from '../../interface/auth.interface';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -9,11 +11,16 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
 
-  constructor( private router: Router) { }
+  constructor( private router: Router, private authService: AuthService) { }
 
   login(){
-
-    this.router.navigate(['./heroes']);
+    this.authService.login()
+    .subscribe((r:Auth)=>{
+      if(r.id){
+        this.router.navigate(['./heroes']);
+      }
+    })
+    
   }
 
   

@@ -37,7 +37,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
+      "characters": "Oliver Queen",
+      "alt_img": "https://media.sanjuan8.com/p/993228f8dd624c3b87d82829a7d26a4d/adjuntos/303/imagenes/008/938/0008938879/1200x0/smart/juanfer-quintero-juan-fernando-quinterojpg.jpg"
     },
     {
       "id": "dc-wonder",
@@ -81,7 +82,7 @@
     },
     {
       "id": "marvel-spider",
-      "superhero": "Spider Man",
+      "superhero": "Spider Man Araña",
       "publisher": "Marvel Comics",
       "alter_ego": "Peter Parker",
       "first_appearance": "Amazing Fantasy #15",
